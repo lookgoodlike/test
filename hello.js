@@ -1,4 +1,4 @@
-const ws = new WebSocket("ws://localhost:8080");
+const ws = new WebSocket("ws://45.89.107.157:8080");
 
 ws.onopen = () => {
   console.log("Browser connected!");
